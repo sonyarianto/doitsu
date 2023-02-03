@@ -18,6 +18,10 @@ Simple and generic web framework, mostly only routing and templating.
 
 ![My image](https://github.com/radicalcircle/doitsu/blob/main/doitsu.png?raw=true)
 
+## What next?
+
+It depends on your imagination. For example in our use case, we use this framework with Alpine.js to handle the reactivity, add date-fns to manipulate date, add Tailwind CSS for nice styling flow and sometimes add Flowbite to take the component advantage of nice visual UI. The limit is your creativity.
+
 ## License
 
 MIT
