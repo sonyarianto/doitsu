@@ -4,7 +4,7 @@ Simple web framework.
 ## Requirements
 
 - Make sure PHP is available on your system. We recommend PHP 8 or above.
-- Make sure Composer is available on your system
+- Make sure Composer is available on your system.
 
 ## How to run
 
