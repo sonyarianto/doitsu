@@ -8,7 +8,7 @@ Simple web framework.
 
 ## How to run
 
-- Clone the repository
+- Clone this repository
 - Go to the project directory
 - Run `composer -vvv install` (this to install the dependencies)
 - Run `php -S 0.0.0.0:4000 -t public` (this is to run the built-in PHP web server for development purpose)
