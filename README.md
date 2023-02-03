@@ -1,4 +1,4 @@
-# doitsu
+# Doitsu
 Simple web framework.
 
 ## Requirements
