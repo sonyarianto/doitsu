@@ -7,7 +7,6 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\Matcher\UrlMatcher;
 use Symfony\Component\Routing\RequestContext;
-use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 use Symfony\Component\Dotenv\Dotenv;
 
@@ -15,7 +14,7 @@ date_default_timezone_set('UTC'); // set timezone to UTC
 
 $request = Request::createFromGlobals(); // get request object
 
-$routeObject['route']['app.index'] = new Route('/', ['_class_and_method' => 'Application::index']); // create / route and set class and method, in this case Application::index
+require_once __DIR__ . '/../src/_routes.php'; // get routes definition
 
 $routes = new RouteCollection();
 
