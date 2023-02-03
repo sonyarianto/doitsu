@@ -1,5 +1,5 @@
 # Doitsu
-Simple web framework.
+Simple and generic web framework, but also opinionated hehe.
 
 ## Requirements
 
