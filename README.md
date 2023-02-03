@@ -10,8 +10,8 @@ Simple web framework.
 
 - Clone this repository
 - Go to the project directory (usually using `cd` command)
-- Run `composer -vvv install` (this to install the dependencies)
-- Run `php -S 0.0.0.0:4000 -t public` (this is to run the built-in PHP web server for development purpose)
+- Run `composer -vvv install` (this comamnd is to install the dependencies)
+- Run `php -S 0.0.0.0:4000 -t public` (this command is to run the built-in PHP web server for development purpose)
 - Open the web on your browser at http://localhost:4000 (until this point means we already have `/` route that handle the home page)
 
 ## License
