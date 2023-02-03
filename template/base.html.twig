@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+        <style>
+            [x-cloak] {
+                display: none !important;
+            }
+        </style>
+		<link rel="stylesheet" href="{{ base_path }}/assets/css/style.css?av={{ _assets_version }}">
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.11.1/cdn.js" integrity="sha512-h2aNjnxfiJSH8nUAizyHlivjczoT8LdauKF+L4ZunZbQj078qiCGey5vKNKHO/yDf3BvLQkhoxEqhXBTBG37Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/2.0.0-alpha0/date_fns.min.js" integrity="sha512-0kon+2zxkK5yhflwFqaTaIhLVDKGVH0YH/jm8P8Bab/4EOgC/n7gWyy7WE4EXrfPOVDeNdaebiAng0nsfeFd9A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<title>{% block page_title %}{% endblock page_title %}</title>
+	</head>
+	<body x-data>
+		{% block content %}{% endblock content %}
+		
+		{% block general_script %}{% endblock general_script %}
+
+		{% block module_script %}{% endblock module_script %}
+	</body>
+</html>

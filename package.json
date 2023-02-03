@@ -1,0 +1,24 @@
+{
+  "name": "doitsu",
+  "version": "0.1.0",
+  "description": "Simple web framework",
+  "main": "",
+  "scripts": {
+    "dev": "php -S 0.0.0.0:4000 -t public",
+    "tailwindcss-watch": "tailwindcss -i src/_style.css -o public/assets/css/style.css --watch",
+    "tailwindcss": "tailwindcss -i style/input.css -o public/assets/css/style.css.output && git status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radicalcircle/doitsu.git"
+  },
+  "author": "Sony Arianto Kurniawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radicalcircle/doitsu/issues"
+  },
+  "homepage": "https://github.com/radicalcircle/doitsu#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
