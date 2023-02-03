@@ -10,10 +10,15 @@
                 display: none !important;
             }
         </style>
-		<link rel="stylesheet" href="{{ base_path }}/assets/css/style.css?av={{ _assets_version }}">
-        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.11.1/cdn.js" integrity="sha512-h2aNjnxfiJSH8nUAizyHlivjczoT8LdauKF+L4ZunZbQj078qiCGey5vKNKHO/yDf3BvLQkhoxEqhXBTBG37Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/2.0.0-alpha0/date_fns.min.js" integrity="sha512-0kon+2zxkK5yhflwFqaTaIhLVDKGVH0YH/jm8P8Bab/4EOgC/n7gWyy7WE4EXrfPOVDeNdaebiAng0nsfeFd9A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<title>{% block page_title %}{% endblock page_title %}</title>
+        {# uncomment below if you want to use Tailwind CSS auto generated style (with npm run tailwindcss-watch command )#}
+		{# <link rel="stylesheet" href="{{ base_path }}/assets/css/style.css?av={{ _assets_version }}"> #}
+        
+        {# uncomment below if you want to use date-fns #}
+        {# <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/2.0.0-alpha0/date_fns.min.js" integrity="sha512-0kon+2zxkK5yhflwFqaTaIhLVDKGVH0YH/jm8P8Bab/4EOgC/n7gWyy7WE4EXrfPOVDeNdaebiAng0nsfeFd9A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> #}
+		
+        {# uncomment below if you want to use Alpine.js #}
+        {# <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.11.1/cdn.min.js" integrity="sha512-p5D8PQLs985Yn0ag6o2zDx/YTzcZKq7YsO+rM79PnqJ0ahDrdR9jg8iCZXdIjdA8vBh4vgsdp4wcO1S+ShE43Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> #}
+        <title>{% block page_title %}{% endblock page_title %}</title>
 	</head>
 	<body x-data>
 		{% block content %}{% endblock content %}
