@@ -10,7 +10,7 @@ Simple and generic web framework, mostly only routing and templating.
 
 - Clone this repository
 - Go to the project directory (usually using `cd` command)
-- Run `composer -vvv install` (this command is to install the dependencies)
+- Run `composer -vvv install` (this command is to install the dependencies, will create `vendor` directory)
 - Run `php -S 0.0.0.0:4000 -t public` (this command is to run the built-in PHP web server for development purpose)
 - Open the web on your browser at `http://localhost:4000` (until this point it means we already have `/` route that handle the home page)
 
