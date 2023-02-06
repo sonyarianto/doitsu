@@ -22,6 +22,10 @@ Simple and generic web framework, mostly only routing and templating.
 
 It depends on your imagination. For example in our use case, we use this framework with Alpine.js to handle the reactivity, add date-fns to manipulate date, add Tailwind CSS for nice styling flow and sometimes add Flowbite to take the component advantage of nice visual UI. The limit is your creativity.
 
+## Quick FAQs
+
+- Want to add new route such as /about or anything? Just go to `src/_routes.php` and add there. Observe the current code. After you create new route usually you will create a method on `Application` class (located at `src/Application.php`) to execute some code (a.k.a controller) before you render some visual page (a.k.a view).
+
 ## License
 
 MIT
