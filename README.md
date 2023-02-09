@@ -29,6 +29,8 @@ It depends on your imagination. For example in our use case, we use this framewo
 - **Can I deploy using Docker?** Yes, we will give the docker-compose sample later.
 - **Why another framework? Is Laravel or Symfony not enough?** Hmmmm, you know my motivation create this framework is just for fun and learn. So nothing can stop me to create something haha.
 - **Why the name is Doitsu?** Rian Cintiyo propose the name and I think that's very good name, so we continue with that. It's Japanese word that means Germany.
+- **What do you use for doing routing?** We use Symfony Routing component.
+- **What template engine do you use?** We use Twig template engine.
 
 ## License
 
