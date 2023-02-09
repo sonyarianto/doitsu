@@ -36,4 +36,4 @@ It depends on your imagination. For example in our use case, we use this framewo
 
 MIT
 
-Copyright (c) 2023-present, Sony Arianto Kurniawan and contributors
+Copyright (c) 2023-present, Sony Arianto Kurniawan <sony@sony-ak.com> and contributors.
