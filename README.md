@@ -1,5 +1,5 @@
 # Doitsu
-Simple and generic web framework, mostly only routing and templating.
+Simple and generic web framework based on PHP, mostly only routing and templating.
 
 ## Requirements
 
