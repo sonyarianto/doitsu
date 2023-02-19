@@ -16,7 +16,7 @@ Simple and generic web framework based on PHP, mostly only routing and templatin
 
 ## Sample output
 
-![My image](https://github.com/radicalcircle/doitsu/blob/main/doitsu.png?raw=true)
+![My image](https://github.com/sonyarianto/doitsu/blob/main/doitsu.png?raw=true)
 
 ## What next?
 
