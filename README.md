@@ -3,8 +3,8 @@ Simple and generic web framework based on PHP, mostly only routing and templatin
 
 ## Requirements
 
-- Make sure PHP is available on your system. We recommend PHP 8 or above.
-- Make sure Composer is available on your system.
+- Make sure PHP is available on your system. We recommend PHP 8 or above. [[PHP installation manual]](https://www.php.net/manual/en/install.php)
+- Make sure Composer is available on your system. [[Composer installation manual]](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
 
 ## How to run
 
