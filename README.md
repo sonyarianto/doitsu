@@ -42,6 +42,7 @@ It depends on your imagination. For example in our use case, we use this framewo
 
 #### **1. Adding Alpine JS from `<script>` tag.**<br> ####
 You can add Alpine Js using CDN by adding it on **template/base.html.twig** file and place it before end of `</head>` markup like image bellow.
+```html
 <html>
     <head>
         ...
@@ -50,7 +51,7 @@ You can add Alpine Js using CDN by adding it on **template/base.html.twig** file
     </head>
     ...
 </html> 
-
+```
 `defer` inside script tag in here to make the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [Read more in here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script).<br>
 
 #### **2. Adding Alpine JS as a module.**<br> ####
