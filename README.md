@@ -32,6 +32,34 @@ It depends on your imagination. For example in our use case, we use this framewo
 - **What do you use for doing routing?** We use Symfony Routing component.
 - **What template engine do you use?** We use Twig template engine.
 
+## Adding Alpine JS
+
+- **There are 2 ways to add Alpine JS** :
+1. Adding Alpine JS by including it from a `<script>` tag
+2. Importing it as a module
+
+>- 1. **Adding Alpine JS from `<script>` tag.**<br>
+You can add Alpine Js using CDN and place it before end of `</head>` markup like image bellow.
+<html>
+    <head>
+        ...
+ 
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+    ...
+</html> 
+
+`defer` inside script tag in here to make the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [Read more in here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script).<br>
+
+>- 2. **Adding Alpine JS as a module.**<br>
+You can also add Alpine JS as a module!, and how to do that is shown on the list bellow:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Run the following command to install it:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `npm install alpinejs`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Import Alpine into your bundle and initialize it like so:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
+import Alpine from 'alpinejs'`  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Alpine.start()`
+
+To read more detail how to install Alpine, [Read here.](https://alpinejs.dev/essentials/installation)
+
 ## License
 
 MIT
