@@ -38,7 +38,7 @@ It depends on your imagination. For example in our use case, we use this framewo
 > 1. Adding Alpine JS by including it from a `<script>` tag
 > 2. Importing it as a module<br>
 
-- #### **Adding Alpine JS from `<script>` tag.**<br> ####
+1. #### **Adding Alpine JS from `<script>` tag.**<br> ####
 You can add Alpine Js using CDN by adding it on **template/base.html.twig** file and place it before end of `</head>` markup like image bellow.
 <html>
     <head>
@@ -51,7 +51,7 @@ You can add Alpine Js using CDN by adding it on **template/base.html.twig** file
 
 `defer` inside script tag in here to make the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [Read more in here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script).<br>
 
-- #### **Adding Alpine JS as a module.**<br> ####
+2. #### **Adding Alpine JS as a module.**<br> ####
 You can also add Alpine JS as a module!, and how to do that is shown on the list bellow:<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Run the following command to install it:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `npm install alpinejs`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Import Alpine into your bundle and initialize it like so:<br>
