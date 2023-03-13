@@ -50,7 +50,6 @@ You can add Alpine Js using CDN by adding it on **template/base.html.twig** file
 <html>
     <head>
         ...
- 
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
     ...
