@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/44936981/224746457-73db82a2-23cc-40b2-b97b-c353c2463022.png" />
+</p>
+
 # Doitsu
 Simple and generic web framework based on PHP, mostly only routing and templating.
 
