@@ -66,6 +66,10 @@ import Alpine from 'alpinejs'`  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
 
 To read more detail how to install Alpine, [Read here.](https://alpinejs.dev/essentials/installation)
 
+## Credits
+
+- Doitsu logo created by [Rian Cintiyo](https://github.com/riancintiyo).
+
 ## License
 
 MIT
