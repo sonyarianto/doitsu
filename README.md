@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/sonyarianto/doitsu/blob/main/doitsu-logo.png?raw=true" width="100" height="100" />
+  <img src="https://github.com/sonyarianto/doitsu/blob/main/doitsu-logo.png?raw=true" width="150" height="150" />
 </p>
 
 # Doitsu
