@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/44936981/224746457-73db82a2-23cc-40b2-b97b-c353c2463022.png" />
+  <img src="https://github.com/sonyarianto/doitsu/blob/main/doitsu-logo.png?raw=true" width="100" height="100" />
 </p>
 
 # Doitsu
