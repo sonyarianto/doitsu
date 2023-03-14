@@ -2,6 +2,12 @@
   <img src="https://github.com/sonyarianto/doitsu/blob/main/doitsu-logo.png?raw=true" width="150" height="150" />
 </p>
 
+<p align="center">
+<a href="https://paypal.me/sonyarianto?country.x=ID&locale.x=en_US" target="_blank">
+ <img alt="Sponsor" src="https://img.shields.io/badge/donate-Paypal-fd8200.svg" />
+</a>
+</p>
+
 # Doitsu
 Simple and generic web framework based on PHP, mostly only routing and templating.
 
