@@ -3,8 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://paypal.me/sonyarianto?country.x=ID&locale.x=en_US" target="_blank">
+  <a href="https://paypal.me/sonyarianto" target="_blank">
     <img alt="Sponsor" src="https://img.shields.io/badge/donate-Paypal-fd8200.svg" />
+  </a>
+  <a href="https://github.com/sponsor/sonyarianto" target="_blank">
+    <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/sonyarianto">
   </a>
   <a href="https://discord.com/channels/1083266930896535562/1088651320845672588" target="_blank">
     <img alt="Discord" src="https://img.shields.io/discord/1083266930896535562">
